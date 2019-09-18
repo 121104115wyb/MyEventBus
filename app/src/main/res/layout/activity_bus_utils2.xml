@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BusUtils2Activity">
+
+    <Button
+        android:id="@+id/send1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不带参数"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/send2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带参数"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/stickSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="粘性"
+        android:textSize="26sp" />
+
+</LinearLayout>

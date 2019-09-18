@@ -1,0 +1,18 @@
+{
+  "BusUtilsClass": "com.blankj.utilcode.util.BusUtils",
+  "rightBus": {
+    "TagIntentParam": [
+      "{ desc: com.ytlz.myeventbus.BusUtils2Activity#intentParamFun(java.lang.String param), sticky: true }"
+    ],
+    "TagNoParam": [
+      "{ desc: com.ytlz.myeventbus.BusUtilsActivity#noParamFun(), threadMode: SINGLE }"
+    ],
+    "TagOneParam": [
+      "{ desc: com.ytlz.myeventbus.BusUtilsActivity#oneParamFun(java.lang.String param) }"
+    ],
+    "TagStickyParam": [
+      "{ desc: com.ytlz.myeventbus.BusUtilsActivity#oneStickyParam(java.lang.String param) }"
+    ]
+  },
+  "wrongBus": {}
+}
